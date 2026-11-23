@@ -12,7 +12,7 @@ Email and LinkedIn: Not provided yet. Visitors can connect via GitHub.
 Location and job availability: Not provided. Do not infer them.
 For missing details, say that information has not yet been added. Keep responses helpful, accurate and concise.
 `;
-const MODEL = '@cf/meta/llama-3.1-8b-instruct-fast';
+const MODEL = '@cf/meta/llama-3.1-8b-instruct-fast';b
 const headers={'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'};
 const reply=(data,status=200)=>new Response(JSON.stringify(data),{status,headers});
 export async function onRequestPost({request,env}){
